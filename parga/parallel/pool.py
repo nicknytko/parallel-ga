@@ -17,7 +17,7 @@ class WorkerPool:
         pass
 
 
-    def __init__(self, num_workers):
+    def __init__(self, num_workers=1):
         self.num_workers = num_workers
         self.workers = []
         self.mpi_enabled = False
